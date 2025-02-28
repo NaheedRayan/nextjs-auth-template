@@ -4,6 +4,10 @@ export async function connect() {
     try {
 
         mongoose.connect(process.env.MONGO_URI!);
+
+        //for debugging
+        mongoose.set("debug", true);
+
         const connection = mongoose.connection;
 
         connection.on("error", (error) => {
@@ -11,7 +15,7 @@ export async function connect() {
             console.log(error);
         });
 
-        connection.once("error", () => {
+        connection.on("error", () => {
             console.log("Connected to database");
             process.exit(0);
         });
