@@ -18,6 +18,10 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
+<hr>
+
+Watch this gem playlist for better understanding.
+[Youtube playlist](https://youtube.com/playlist?list=PLu71SKxNbfoCXO80Z4miZHTL5GxfFbz7A&si=H08f_b25FSFWyJmX)
 
 ## Screenshots
 
